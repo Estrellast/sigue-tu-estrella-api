@@ -3,5 +3,4 @@ Flask-CORS==4.0.0
 gunicorn==21.2.0
 geopy==2.4.1
 timezonefinder==6.5.0
-pyswisseph==2.10.3.1
-kerykeion==4.1.14
+kerykeion==2.1.16
