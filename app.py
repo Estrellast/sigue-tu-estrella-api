@@ -331,6 +331,16 @@ def generate_holistic_synthesis(chart_data, author_id, aspects_list=None, aspect
         aspects_list: List of actual aspects from the chart (from Kerykeion)
         aspects_interpretations: Dict of aspect interpretations from JSON
     """
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Sigue Tu Estrella API - Carta Natal Completa",
+        "version": "1.0.0",
+        "status": "active",
+        "author": "Francisco Manuel (Pacoastrologo) - Sigue Tu Estrella",
+        "copyright": "Concepto original, diseño y lógica astrológica por Francisco Manuel. Todos los derechos reservados.",
+        "website": "https://siguetuestrella.com"
+    })
     synthesis = {
         "title": "",
         "content": "",
