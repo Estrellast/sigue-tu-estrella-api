@@ -683,7 +683,7 @@ def api_calculate():
             s_key = sign_map.get(s_english, s_english)
             
             lookup_key = f"{p_key}_{s_key}"
-            interpretation_text = author_data.get(lookup_key, {}).get('texto', "Interpretación no disponible para este autor en esta demo.")
+            interpretation_text = author_data.get(lookup_key, {}).get('texto', "Interpretación no encontrada en los textos digitalizados actuales de este autor.")
             
             chart_data.append({
                 'body': name_es, 
