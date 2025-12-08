@@ -42,7 +42,8 @@ def calculate_aspects_between_charts(chart1_objs, chart2_objs, chart1_name="Nata
     
     for p1 in chart1_objs:
         for p2 in chart2_objs:
-            diff = abs(p1['position'] - p2['position'])
+            if p1['name'] == p2['name']:
+    continue            diff = abs(p1['position'] - p2['position'])
             diff = diff % 360
             if diff > 180:
                 diff = 360 - diff
