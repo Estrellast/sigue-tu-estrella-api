@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+.geonames_cache/
+*.svg
+
+# WordPress plugin (no necesario en el servidor)
+wordpress-plugin/
+*.zip
+
+# PDFs grandes (no necesarios para la API)
+*.pdf
+
+# Otros
+.DS_Store
+*.log

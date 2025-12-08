@@ -1,0 +1,285 @@
+{
+    "source": {
+        "book": "The Message of the Stars",
+        "author": "Max Heindel and Augusta Foss Heindel",
+        "year": 1918,
+        "source_url": "https://www.rosicrucian.com/mos/moseng11.htm",
+        "license": "Public Domain"
+    },
+    "autor": {
+        "id": "max_heindel",
+        "nombre": "Max Heindel",
+        "obra_principal": "The Message of the Stars (1918)",
+        "enfoque": "Rosacruz - Astrología Espiritual y Médica"
+    },
+    "interpretaciones": {
+        "planetas_signos": {
+            "Sol_Aries": {
+                "texto": "(Max Heindel) Aries es el signo de exaltación del Sol y por tanto esta es la posición más poderosa del orbe central. Aquí irradia una fuerza vital de fortaleza sin igual que da a la persona un maravilloso fondo de energía con el cual resistir los embates de las enfermedades. Si enferma, sus poderes de recuperación lo liberarán rápidamente de las garras de la enfermedad. Las personas con esta posición son principalmente propensas a fiebres debido al ferviente calor del Sol en Aries. Como Aries rige la cabeza, el calor excesivo a menudo seca el cuero cabelludo de modo que el cabello no puede crecer y la persona se vuelve calva."
+            },
+            "Sol_Tauro": {
+                "texto": "(Max Heindel) Una posición favorable para las fortunas financieras pero también da tendencia a la extravagancia, especialmente en el vestir, y hace a la persona extremadamente aficionada al sexo opuesto, a veces con resultados perjudiciales. Da gran fuerza física y la persona ama presumir para que la gente admire su proeza. Tauro rige la laringe y por tanto el Sol en Tauro añade fuerza a los órganos vocales y da a la persona una voz fuerte y agradable."
+            },
+            "Sol_Geminis": {
+                "texto": "(Max Heindel) Géminis es un signo Mercurial y tercero en la gama, por tanto esta posición da una influencia combinada del Sol, Mercurio y la Tercera Casa. Esto favorece la expresión de Mercurio porque es el planeta que mueve las cuerdas vocales y produce sonido en la laringe Tauriana; también favorece los escritos y viajes; la mente se ilumina con el Sol en Géminis y cuando es necesario o conveniente viajar, la persona gana física y mentalmente. Da una disposición agradable y afable que lo hace generalmente querido entre sus asociados."
+            },
+            "Sol_Cancer": {
+                "texto": "(Max Heindel) Cáncer es el cuarto signo y está regido por la Luna, por tanto, el Sol en Cáncer es una mezcla de las influencias del Sol, la Luna y la cuarta Casa. En el horóscopo natural Cáncer está en el nadir, y con el Sol aquí, la vitalidad está en su punto más bajo; por tanto con esta posición uno tiende a ser indolente aunque no esté enfermo en absoluto. Es inofensivo y evita las disputas, por tanto es armonioso y agradable en el hogar mientras no se le pida trabajar demasiado. Esta posición del Sol hace la primera parte de la vida estéril de frutos pero trae éxito en los años posteriores. Cáncer es un signo psíquico y por tanto el Sol en Cáncer da tendencia hacia lo oculto, a menudo con experiencias psíquicas."
+            },
+            "Sol_Leo": {
+                "texto": "(Max Heindel) El Sol en Leo da una naturaleza magistral con gran medida de autocontrol, un agudo sentido del honor y una integridad inquebrantable. La persona aspira a regir a otros pero desdeñaría tomar una ventaja mezquina o hacer a otros algo que no esté en estricto acuerdo con la regla de oro; los afectos son profundos y duraderos. Las personas con el Sol en Leo son defensores acérrimos de aquellos que aman, pero igualmente fuertes en sus aversiones. Leo es el signo que rige el corazón. Lo que sea que hagan las personas con el Sol en Leo se hace con una concentración de propósito que compele al éxito. Hacen verdaderos amigos y si uno debe tener un enemigo, un Leo probará ser más honorable y magnánimo que cualquier otro."
+            },
+            "Sol_Virgo": {
+                "texto": "(Max Heindel) Esta es una combinación de las influencias solar, mercurial y de la Sexta Casa. Muestra al exitoso intermediario entre el productor y consumidor, sutil, extremadamente rápido para ver qué funcionará para su ventaja en la promoción de negocios, agradable y sociable, complaciente con todos de quienes espera ganar, pero dominante con empleados y compañeros de trabajo; un hablador suave pero no necesariamente insincero; simplemente cuida el número uno. El Sol en Virgo hace buenos químicos, enfermeras y doctores, no cirujanos sino doctores de medicinas; son firmes creyentes en la medicina y mucha de ella."
+            },
+            "Sol_Libra": {
+                "texto": "(Max Heindel) Libra está regido por Venus y es el séptimo signo, por tanto el Sol en Libra combina la influencia de Venus con la del Sol y la Séptima casa, con el resultado de que la persona ama a su pareja matrimonial tan devotamente que excluye a todos los demás; porque de una persona con esa posición verdaderamente puede decirse que 'el Sol sale y se pone' en la pareja matrimonial. Libra es también el signo de exaltación de Saturno, y su influencia está allí en su mejor momento, dando un elemento de construcción al arte de Venus. Esto se manifiesta como habilidad para la arquitectura y las ramas más finas de la construcción decorativa cuando el Sol está en Libra. Esta posición también da una voz fina y sonora y talento vocal."
+            },
+            "Sol_Escorpio": {
+                "texto": "(Max Heindel) El Sol en Escorpio, cuando está bien aspectado, da gran energía, coraje e independencia. Hace la mente activa y favorece el éxito en ocupaciones como las del cirujano o soldado. También tiende a mejorar las finanzas después del matrimonio, pero tiende a la extravagancia. El Sol aquí afligido da a la persona una manera muy brusca, un sentimiento de que su juicio es mejor que el de otros, y una tendencia a pasar por encima de cualquiera o cualquier cosa que se interponga en su camino. A menudo lo hace indiferente al sufrimiento y puede transformar al cirujano en un viviseccionista."
+            },
+            "Sol_Sagitario": {
+                "texto": "(Max Heindel) Esto da ideas elevadas y una noble disposición aspirante que busca elevarse elevando a otros. Hace a la persona benevolente, filantrópica y por tanto amada entre sus asociados. A menudo es receptor de honores y nombramientos para puestos de confianza, y misiones de naturaleza delicada, no podría hacerse mejor selección, porque tales personas son el alma del honor. Esta posición también traerá éxito en religión, ley y estadismo porque da una mente expansiva apta para lidiar con los mayores problemas de la vida."
+            },
+            "Sol_Capricornio": {
+                "texto": "(Max Heindel) Esta es buena señal de que la persona se elevará en la vida con la ayuda de la buena voluntad de personas en una posición más alta que él; muestra que merecerá su confianza y se desempeñará bien en una posición de responsabilidad y confianza; lo hace cuidadoso, prudente, fiel y honesto. Los jueces con esa posición no pueden ser comprados pero administrarán justicia como la ven, a todos. Da un amor completo por el juego limpio y gana para aquellos que lo tienen el respeto y estima de todos en su círculo."
+            },
+            "Sol_Acuario": {
+                "texto": "(Max Heindel) Esta es una combinación de las influencias del Sol, Urano y la Undécima Casa. Da a la persona una percepción intuitiva de la naturaleza interna de las cosas y un contacto con las fuerzas e ideas de los reinos espirituales que lo lleva a adoptar, cuando es posible, cultos nuevos y avanzados, o métodos de sanación como la Naturopatía, Electroterapia, Astroterapia, Curación Magnética, etc. También es atraído a la investigación científica y religiones ultra-intelectuales o extrañas. Esta posición da mucha popularidad y firmes amigos entre personas que están en posición de otorgar favores y promover el logro de sus ambiciones."
+            },
+            "Sol_Piscis": {
+                "texto": "(Max Heindel) Da una disposición retraída y favorece el éxito en ocupaciones alejadas de la vista pública como prisiones, hospitales, instituciones para los pobres, etc. Si la persona incurre en la enemistad de otros, será reivindicada sin importar lo que hagan para dañar su reputación. Las personas con el Sol en Piscis tienen una fuerte tendencia hacia el psiquismo, la mediumnidad y lo oculto en general."
+            },
+            "Luna_Aries": {
+                "texto": "(Max Heindel) La Luna en Aries da un tipo de mente muy independiente que busca forjar su propio camino en la vida, sea correcto o incorrecto, y es extremadamente rápida para resentir cualquier interferencia de otros. La persona es ambiciosa y agresiva pero carece de previsión, por lo que es propensa a encontrar numerosos contratiempos. Sin embargo, esta posición da un coraje intrépido y tales personas no son fácilmente derrotadas. Cuando han fallado en una dirección, inmediatamente intentan otra empresa y al final su misma persistencia usualmente los lleva a la prominencia en su línea y les da éxito final."
+            },
+            "Luna_Tauro": {
+                "texto": "(Max Heindel) Este es el signo de exaltación de la Luna y su efecto es por tanto muy poderoso para el bien si está libre de aflicción y bien aspectada. La naturaleza fija de Tauro atempera la variabilidad de la Luna que también se mezcla con el rayo de Venus. Por tanto hace la disposición gentil, autosuficiente y determinada. Da perseverancia, previsión y bondad, por tanto la persona atrae todas las cosas buenas de la vida, salud y riqueza, amigos y familia, casas y tierras con la capacidad de disfrutar todas estas cosas porque lo hace amante del placer, sociable y hospitalario, amante del arte y la música y todas las otras cosas que hacen para el disfrute de la vida."
+            },
+            "Luna_Geminis": {
+                "texto": "(Max Heindel) La Luna en Géminis da un intelecto despierto, aficionado a la literatura y la ciencia, ingenioso y capaz de enfrentar emergencias, amplio, liberal y alerta a las ideas progresivas que son adoptadas con avidez. Por tanto tales personas son muy atraídas a ocupaciones literarias, particularmente en el campo periodístico donde pueden revolotear de un tema a otro según lo requiera su mente extremadamente inquieta. Esta posición también da un amor inmenso por viajar y deseo de posiciones donde uno conoce mucha gente."
+            },
+            "Luna_Cancer": {
+                "texto": "(Max Heindel) La Luna en Cáncer da una disposición bondadosa, sociable y simpática, pero indolente y adversa al esfuerzo ya sea físico, moral o mental. Estas personas aman dejarse llevar por la corriente y solo se esfuerzan cuando están bajo el látigo de la necesidad. A menudo son sensibles a condiciones psíquicas, especialmente si la Luna está aspectada por Neptuno o Urano. Esta posición también da amor al hogar y las comodidades que allí se obtienen. Promueve la digestión y consecuentemente la salud si la Luna está bien aspectada."
+            },
+            "Luna_Leo": {
+                "texto": "(Max Heindel) La Luna en Leo tiene una influencia iluminadora en la mente. Da una disposición fuerte, autosuficiente y agresiva con habilidad para la organización; por tanto las personas con la Luna en esta posición usualmente alcanzan liderazgo en su círculo inmediato. Son honorables en asuntos financieros y sociales, justas y magnánimas en sus tratos con otros, y muy populares con otras personas."
+            },
+            "Luna_Virgo": {
+                "texto": "(Max Heindel) La Luna en Virgo aumenta las cualidades mentales si está bien aspectada; da memoria retentiva, amor por el estudio a lo largo de líneas científicas u ocultas y ambición de sobresalir. La química es la favorita de estas personas entre las ciencias y sobresalen como dietistas. Son más bien reservadas y de comportamiento tranquilo, les disgusta la adulación o la ostentación. A menos que se dediquen a la dietética, tienen más éxito como sirvientes o empleados de otros que en negocios propios."
+            },
+            "Luna_Libra": {
+                "texto": "(Max Heindel) La Luna en Libra es una posición afortunada para la adquisición de amigos y popularidad pública porque hace a la persona bondadosa, simpática y agradable, optimista y aficionada a los placeres sociales. Esta posición también da buenos poderes de razonamiento y la capacidad de formar un juicio correcto, amor por el arte y la música, a veces considerable habilidad como intérprete si es asistida por otros aspectos."
+            },
+            "Luna_Escorpio": {
+                "texto": "(Max Heindel) La Luna en Escorpio da una disposición valiente, independiente y enérgica. La persona con esta configuración no tolerará interferencia con sus planes ni se someterá a imposiciones. A menudo es muy abrupta en sus modales y directa en el habla, de temperamento rápido y no se deja coaccionar por amenazas, pero es singularmente receptiva a la bondad. Tiene una voluntad fuerte y obstinada y determinación de llevar a cabo lo que emprende. Esta posición también da considerable atracción hacia las ciencias ocultas."
+            },
+            "Luna_Sagitario": {
+                "texto": "(Max Heindel) La Luna en Sagitario da una personalidad alerta y activa, amor por caminar, cabalgar o cualquier otra forma de ejercicio físico, una disposición errante y amor por viajar a países extranjeros, gusto por los animales, especialmente caballos y perros, e inclinación por el estudio de la religión, ley, filosofía o la ciencia del ocultismo. Estas personas son muy optimistas, de buen humor, joviales y compañeros ideales a menos que la Luna esté afligida; entonces su posición en Sagitario conduce a la indolencia y autoindulgencia."
+            },
+            "Luna_Capricornio": {
+                "texto": "(Max Heindel) La Luna en Capricornio, si está bien aspectada, da abundancia de ayuda de personas que están más altas en la escala social de modo que cualquier éxito que haya vendrá a través de otros, siendo la persona demasiado tímida para impulsarse a sí misma, además de ser de un giro melancólico de mente que la hace excesivamente sensible a desaires reales o imaginarios. Si la Luna está afligida da propensión a la calumnia, merecida o no. Esta posición también tiene un efecto perjudicial sobre la digestión. Las personas con la Luna en esta posición a menudo tienen un miedo insano de llegar a querer y por tanto se vuelven avaras y tacañas."
+            },
+            "Luna_Acuario": {
+                "texto": "(Max Heindel) La Luna en Acuario, si está bien aspectada, da a la persona una imaginación muy vívida y el poder de evocar imágenes ante el ojo de la mente de tal manera que parecen casi tangibles; además estas personas no dependen de la facultad de la razón, porque su intuición también está excesivamente bien desarrollada. En disposición son sociables, bondadosas y corteses con el resultado de que atraen muchos amigos y son muy populares en su ambiente, y son ayudadas por sus amigos según los aspectos de la Luna."
+            },
+            "Luna_Piscis": {
+                "texto": "(Max Heindel) La Luna en Piscis da una mente receptiva y una imaginación fértil con una disposición a la indolencia y autocompasión, vacilación y pusilanimidad, hace a uno aficionado a soñar en lugar de actuar, por tanto el dolor, los problemas y la autodestrucción acechan el camino en la vida. Esta posición no infrecuentemente conduce a la mediumnidad, especialmente si Neptuno está en aspecto adverso, porque estas personas son peculiarmente sensibles a la adulación de los controles espirituales y aman cualquier cosa que agite sus emociones."
+            },
+            "Mercurio_Aries": {
+                "texto": "(Max Heindel) Mercurio en Aries da una mente aguda, ingeniosa y rápida, hábil en debate, rápida en repartidas, sarcástica y propensa a exagerar. Estas personas son muy originales y emprendedoras pero algo precipitadas e impulsivas en sus juicios, lo que puede llevarlas a cometer errores que lamentan después."
+            },
+            "Mercurio_Tauro": {
+                "texto": "(Max Heindel) Mercurio en Tauro da una mente deliberada, práctica y diplomática. Estas personas son constructivas y determinadas en sus opiniones, difíciles de hacer cambiar una vez que han tomado una decisión. Son buenos en negocios porque piensan antes de actuar y consideran cuidadosamente todas las consecuencias."
+            },
+            "Mercurio_Geminis": {
+                "texto": "(Max Heindel) Mercurio en Géminis, su propio signo, da brillantez mental, versatilidad y capacidad para el estudio rápido y comprensión profunda. Estas personas son ingeniosas, hábiles en el habla y la escritura, pero pueden dispersarse tratando de hacer demasiadas cosas a la vez."
+            },
+            "Marte_Aries": {
+                "texto": "(Max Heindel) Marte en Aries da una naturaleza enérgica y entusiasta, impulsiva, agresiva e impaciente de restricciones. No importa cuáles sean los obstáculos en el camino, estas personas intentarán lo aparentemente imposible y a menudo tienen éxito por pura audacia. Son originales, ingeniosas, tienen considerable habilidad mecánica y cuanto más aventurera aparece una empresa, más les atrae. Esta posición da abundancia de vitalidad y amor por el deporte y el ejercicio muscular."
+            },
+            "Marte_Tauro": {
+                "texto": "(Max Heindel) Marte en Tauro y bien aspectado es buena indicación de matrimonio temprano. Muestra buen poder adquisitivo y una disposición libre y generosa respecto a las finanzas; da una fuerza interior de naturaleza inconquistable de modo que la persona siempre ganará sus fines por determinación inquebrantable y una persistencia tranquila que no reconoce derrota. Pero si Marte está afligido en Tauro da una naturaleza excesivamente terca, violenta y vengativa."
+            },
+            "Marte_Geminis": {
+                "texto": "(Max Heindel) Marte en Géminis cuando está bien aspectado da una mente aguda, activa y alerta. Estas personas nunca andan con rodeos. Son honestas y francas y dicen justo lo que quieren decir, quizás a veces un poco demasiado bruscamente. Aman medir su ingenio contra otros en debate y por tanto esta posición favorece el éxito en la ley o la literatura. También tienen éxito en las profesiones de ingeniería porque son ingeniosas e inventivas."
+            },
+            "Marte_Cancer": {
+                "texto": "(Max Heindel) Marte en Cáncer y bien aspectado da una naturaleza audaz, independiente e intrépida con tendencia a rebelarse contra las restricciones, una disposición hogareña, muy industriosa y ambiciosa de reunir y proteger todas las cosas que hacen para la comodidad y el lujo, de modo que es un buen proveedor para el hogar en todos los aspectos. Pero al mismo tiempo estas personas buscan ejercer autoridad irrestricta sobre todo y todos dentro del hogar."
+            },
+            "Marte_Leo": {
+                "texto": "(Max Heindel) Marte en Leo y bien aspectado da una naturaleza activa, industriosa y honesta, intrépida e independiente en todos los tratos con otros, un agudo sentido del honor y la responsabilidad, por tanto hace a uno eminentemente apto para ocupar una posición de confianza. Estas personas son entusiastas y enérgicas tanto en el trabajo como en el juego, amantes del deporte y un buen momento en general. Son muy ardientes en su admiración del sexo opuesto y cortejan al objeto de sus afectos con una intensidad que todo lo lleva por delante."
+            },
+            "Marte_Virgo": {
+                "texto": "(Max Heindel) Marte en Virgo cuando está bien aspectado da una naturaleza ambiciosa y un intelecto rápido, capaz de captar una idea y elaborarla. Fortalece las cualidades mentales y da un giro científico a la mente con habilidad para aplicar esta facultad ya sea en trabajo de investigación o en negocios. Las personas con esta posición son por tanto enérgicas y emprendedoras en muchos de los asuntos industriales del mundo."
+            },
+            "Marte_Libra": {
+                "texto": "(Max Heindel) Marte en Libra y bien aspectado da una naturaleza ardiente, demostrativa y amorosa que es muy grandemente atraída al sexo opuesto y por tanto inclina a un matrimonio temprano. También da un amor entusiasta por el arte y la belleza en todas sus fases y hace a la persona muy popular con el público o en sociedades de naturaleza social o religiosa. Esta es una excelente posición para un abogado, ya que traerá mucha actividad en esta línea."
+            },
+            "Marte_Escorpio": {
+                "texto": "(Max Heindel) Marte en Escorpio cuando está bien aspectado da una mentalidad aguda, afilada y contundente, una manera bastante brusca e indiferencia a las sensibilidades más finas de otros, consecuentemente estas personas a menudo se hacen antipáticas al principio. Son muy ingeniosas y mecánicas, con coraje indomable y energía inagotable que las llevan sobre todos los obstáculos hacia cualquier meta que se propongan. Hacen buenos oficiales de policía, soldados y cirujanos."
+            },
+            "Marte_Sagitario": {
+                "texto": "(Max Heindel) Marte en Sagitario y bien aspectado da una disposición argumentativa y gusto por debatir sobre temas de naturaleza seria como ley, filosofía y religión. Hace a la persona cándida y abierta en todos sus tratos con otros, llena de entusiasmo y ambición, ansiosa de aparecer bien a los ojos de la comunidad. Estas personas hacen entretenedores interesantes e ideales, especialmente en la vida posterior porque son aficionadas a viajar y son observadores agudos."
+            },
+            "Marte_Capricornio": {
+                "texto": "(Max Heindel) Marte en Capricornio cuando está bien aspectado añade mucha fuerza al carácter porque da una disposición ambiciosa y entusiasta respaldada por un coraje indomable y energía casi inagotable junto con una paciencia y perseverancia pacientes que están destinadas a superar todos los obstáculos y al final alcanzar la meta deseada. Por tanto las personas con Marte en esta posición están destinadas a elevarse en la vida. Invita respeto y estima de la comunidad."
+            },
+            "Marte_Acuario": {
+                "texto": "(Max Heindel) Marte en Acuario cuando está bien aspectado hace a la persona de ingenio rápido e intuitiva, ingeniosa y original, emprendedora y ambiciosa, trabajadora dura para el éxito en cualquier línea que elija en la vida. Por tanto ganará amistad de otros que pueden ayudarla a realizar sus esperanzas y deseos. Estas personas también son muy mecánicas e ingeniosas, particularmente en cosas conectadas con la ciencia eléctrica."
+            },
+            "Marte_Piscis": {
+                "texto": "(Max Heindel) Marte en Piscis cuando está bien aspectado da habilidad como detective, guardián de prisión o cirujano en un hospital y en posiciones afines donde la persona no entra en contacto directo con el público, pero ejerce autoridad de manera oscura. También da tendencia hacia aventuras amorosas secretas que la persona puede ocultar del ojo público."
+            },
+            "Jupiter_Aries": {
+                "texto": "(Max Heindel) Júpiter en Aries da una naturaleza enérgica, entusiasta y ambiciosa de espíritu elevado, siempre alerta y en busca de métodos nuevos y progresivos utilizables para el avance en el trabajo del mundo. Hace un verdadero pionero, ni demasiado conservador ni demasiado impulsivo, una disposición reflexiva pero simpática, sincera, honesta y confiable, algo inclinada religiosamente. Da alguna habilidad legal o literaria y amor por los juegos al aire libre con popularidad en círculos sociales y de negocios."
+            },
+            "Jupiter_Tauro": {
+                "texto": "(Max Heindel) Júpiter en Tauro cuando está bien aspectado da una naturaleza eminentemente bondadosa y simpática hacia todas las personas pero un amor profundo, tierno y cálido hacia aquellos con quienes la relación lo justifica. Esta posición también atrae riqueza y da una disposición generosa para ayudar en empresas filantrópicas; sin embargo Júpiter en el Segundo signo nunca es pródigo o extravagantemente generoso sino más bien conservador e inclinado a investigar los méritos de cualquier proposición antes de extender una mano amiga."
+            },
+            "Jupiter_Geminis": {
+                "texto": "(Max Heindel) Júpiter en Géminis cuando está bien aspectado da habilidad literaria de alta clase y si eso está respaldado por la educación necesaria, el éxito en esta línea es cierto. Esta posición también da un giro inventivo a la mente, amor por las matemáticas y atracción hacia lo oculto. Júpiter en Géminis muestra que los viajes traerán tanto placer como provecho y da una disposición honorable, cortés y amistosa."
+            },
+            "Jupiter_Cancer": {
+                "texto": "(Max Heindel) Júpiter en Cáncer. El efecto completo de Júpiter para bien o para mal nunca se siente hasta la mitad de la vida. Cuando está bien colocado aquí da una disposición excesivamente bondadosa y cortés, que está en paz con todo el mundo; está dotado de una imaginación muy vívida y fructífera, un soñador de sueños utópicos y amante de lo oculto y místico. También hay un lado práctico de la naturaleza que lo hace ambicioso de alcanzar éxito mundano y afortunado en sus inversiones en casas, tierras o minas."
+            },
+            "Jupiter_Leo": {
+                "texto": "(Max Heindel) Júpiter en Leo da una naturaleza verdaderamente noble, mezclando bondad y coraje, autosuficiencia y lealtad, autocontrol y compasión, misericordia y justicia. Indica un modelo de virtudes en ninguna parte superado. Da abundancia de vitalidad y una constitución fuerte de modo que marca a un líder física, moral y espiritualmente, y tal persona nunca estará contenta con seguir. Anhela posiciones de confianza y responsabilidad, cuanto mayores mejor."
+            },
+            "Jupiter_Virgo": {
+                "texto": "(Max Heindel) Júpiter en Virgo da una naturaleza cautelosa, analítica y práctica con una facultad casi infalible para discriminar entre lo aparente y lo real, para tamizar la verdad del error y llegar a los hechos. No pueden descubrir secretos por métodos encubiertos, pero si Júpiter en Virgo es el juez nadie es lo suficientemente listo para ocultarle la verdad. Un Júpiter bien aspectado en Virgo indica éxito con sirvientes que serán encontrados fieles y leales."
+            },
+            "Jupiter_Libra": {
+                "texto": "(Max Heindel) Júpiter en Libra cuando está bien aspectado da una disposición bondadosa, simpática y amorosa, una naturaleza consciente, sociable y benevolente e interés en todo lo que hace para la elevación de la humanidad—música, arte, literatura, intercambio social, etcétera. En consecuencia la persona es popular, particularmente con el sexo opuesto de donde puede esperarse ganancia y beneficio. Se muestra éxito en los negocios y la vida pública."
+            },
+            "Jupiter_Escorpio": {
+                "texto": "(Max Heindel) Júpiter en Escorpio da una naturaleza ardiente, agresiva y autosuficiente, una mente entusiasta, constructiva e ingeniosa con la habilidad de enfrentar todas las exigencias de la vida de manera eficiente y asegura éxito en ocupaciones prácticas cotidianas, da una familia grande y medios abundantes para proveerlas. Esta posición también muestra tendencia hacia las investigaciones ocultas."
+            },
+            "Jupiter_Sagitario": {
+                "texto": "(Max Heindel) Júpiter en Sagitario cuando está bien aspectado da buena fortuna y éxito general en la vida, una mente humana, amplia y filosófica, una disposición reverente y religiosa. Por tanto las personas con esta posición se elevan a la cima y se convierten en líderes en sus diversas esferas de vida, encontrando lugares de prominencia en la iglesia, estado, empresas científicas o filosóficas o instituciones filantrópicas."
+            },
+            "Jupiter_Capricornio": {
+                "texto": "(Max Heindel) Júpiter en Capricornio da una naturaleza ambiciosa, autosuficiente y autocontrolada con deseo de elevarse a una posición de autoridad sobre otros también la habilidad de dictar sabia y bien. Da una disposición cuidadosa, económica y aborrecimiento del desperdicio; ingenio, ingeniosidad y alguna habilidad mecánica. Estas personas son confiables a más no poder, sinceras y honestas en todas sus empresas y mantienen cada promesa inviolada."
+            },
+            "Jupiter_Acuario": {
+                "texto": "(Max Heindel) Júpiter en Acuario cuando está bien aspectado da una mente humana, optimista, original y filosófica, aficionada a los amigos y la sociedad de otros particularmente aquellos interesados en ciencia o misticismo, literatura y música. Atrae personas de esa naturaleza y serán un beneficio para él ayudándolo a realizar sus esperanzas, deseos y ambiciones. Posiblemente obtendrá una posición de importancia en alguna capacidad oficial con sociedades secretas u ocultas."
+            },
+            "Jupiter_Piscis": {
+                "texto": "(Max Heindel) Júpiter en Piscis da una naturaleza caritativa, simpática y hospitalaria que ama ministrar a los marginados de la sociedad. Estas personas son verdaderos ángeles de misericordia para todos los que sufren en cuerpo, alma o espíritu. Son bien conocidos por aquellos que están 'enfermos o en prisión'. Siendo de naturaleza sensible y sujetos a influencias del mundo invisible, no infrecuentemente tienen experiencias psíquicas y se convierten en estudiantes de lo oculto."
+            },
+            "Urano_Aries": {
+                "texto": "(Max Heindel) Urano en Aries da una naturaleza original e independiente, llena de energía y ambición, ingeniosa, ingeniosa y capaz de enfrentar dificultades, especialmente las de naturaleza mecánica o eléctrica. Estas personas tienen una manera muy impulsiva, abrupta y brusca que a menudo despierta resentimiento y oposición en otros aunque no se haya pretendido ofensa. Rara vez están satisfechas de permanecer en un lugar sino que son aficionadas a los cambios y vagan mucho."
+            },
+            "Urano_Tauro": {
+                "texto": "(Max Heindel) Urano en Tauro da una voluntad determinada, obstinada e intuitiva. Estas personas tienen ideas fijas una vez que las han formado y son prácticamente imposibles de mover. Sus métodos son poco convencionales pero a menudo prueban ser muy efectivos. Pueden experimentar ganancias o pérdidas financieras súbitas e inesperadas."
+            },
+            "Urano_Geminis": {
+                "texto": "(Max Heindel) Urano en Géminis da una mente original, intuitiva e inventiva. Estas personas están constantemente buscando nuevos métodos y formas de expresión. Son atraídas a todo lo nuevo y poco convencional, particularmente en literatura, ciencia y comunicaciones."
+            },
+            "Urano_Escorpio": {
+                "texto": "(Max Heindel) Urano en Escorpio, cuando está bien aspectado, da a la persona una voluntad contundente y determinada, destinada a superar todos los obstáculos y lograr lo que se propone mediante persistencia, perseverancia y determinación tenaz; la mente es aguda, sagaz y secretiva, capaz de captar detalles y concentrarse profundamente en cualquier problema que esté en mano. Hay originalidad y habilidad mecánica que equivale a genio y amor por la ciencia, tanto oculta como física."
+            },
+            "Urano_Sagitario": {
+                "texto": "(Max Heindel) Urano en Sagitario da una facultad intuitiva muy fuerte con tendencia a sueños, visiones y una imaginación muy vívida. Esta posición también da una fuerte inclinación hacia una creencia fuera de lo común, incluyendo la teoría y práctica de las artes ocultas. Cuando está bien aspectado esta posición da una fuerte comprensión de los problemas religiosos y educativos del día, con un deseo filantrópico de trabajar por la elevación de la humanidad."
+            },
+            "Urano_Capricornio": {
+                "texto": "(Max Heindel) Urano en Capricornio, cuando está bien aspectado, da una disposición ambiciosa y emprendedora, una naturaleza seria y perseverante, y un agudo sentido de responsabilidad, con ideas originales de negocios que traen éxito, especialmente si se selecciona alguna línea que esté conectada con las artes eléctricas o aéreas."
+            },
+            "Urano_Acuario": {
+                "texto": "(Max Heindel) Urano en Acuario, cuando está bien aspectado, está en su mejor momento, porque es regente de este signo y por tanto en armonía con sus vibraciones. Por tanto esta posición fortalece la intuición y originalidad, y dirige las energías hacia líneas de esfuerzo humanitarias, devoción desinteresada a la causa de la amistad, y un deseo sincero de ayudar a todos los que están en problemas. Estas personas hacen muchos amigos y generalmente realizan sus esperanzas, deseos y ambiciones."
+            },
+            "Urano_Piscis": {
+                "texto": "(Max Heindel) Urano en Piscis, cuando está bien aspectado, indica amor por las artes ocultas y habilidad para el desarrollo a lo largo de estas líneas. Trae amigos y asociaciones que favorecen estos estudios. Pero cuando está mal aspectado conduce a la mediumnidad, obsesión, e incluso locura, si esta tendencia al trato con espíritus se sigue hasta su conclusión."
+            },
+            "Saturno_Aries": {
+                "texto": "(Max Heindel) Saturno en Aries es débil y por tanto incapaz de expresar sus mejores cualidades en toda su extensión y legítimo alcance aun si está bien aspectado. Sin embargo da una medida menor de equilibrio, autosuficiencia, discreción y tacto, industria, paciencia y perseverancia. Pero cuando Saturno está afligido en Aries la persona se enoja rápidamente y tiende a guardar rencor, y también tiene una disposición celosa, maliciosa y vengativa."
+            },
+            "Saturno_Tauro": {
+                "texto": "(Max Heindel) Saturno en Tauro cuando está bien aspectado hace a una persona lenta de hablar pero lo que dice tendrá peso y valdrá la pena escuchar. Da una disposición tranquila, lenta para decidir, pero obstinada en mantener una posición una vez tomada. Estas personas son reservadas y pueden considerarse confiables para guardar sus propios secretos y los de otros bien. Cuando Saturno está afligido en Tauro, particularmente por Mercurio, siempre causa problemas con el habla."
+            },
+            "Saturno_Geminis": {
+                "texto": "(Max Heindel) Saturno en Géminis cuando está bien aspectado da una mente profunda, concentrada, ordenada y científica, adaptable a las circunstancias y capaz de enfrentar todas las exigencias de la vida. El amor por las matemáticas es usualmente pronunciado y cuando la literatura se toma como vocación, las ramas más serias dedicadas a temas industriales y mecánicos son preferidas."
+            },
+            "Neptuno_Aries": {
+                "texto": "(Max Heindel) Neptuno en Aries da inspiración y fuerza de voluntad espiritual. Estas personas son pioneras en movimientos idealistas y tienen gran entusiasmo por causas místicas o artísticas. Puede haber tendencia a ideas impulsivas de naturaleza utópica."
+            },
+            "Neptuno_Piscis": {
+                "texto": "(Max Heindel) Neptuno en Piscis, su propio signo, da poderes psíquicos notables y una naturaleza extremadamente sensitiva e impresionable. Hay profunda compasión y deseo de servir a la humanidad de maneras espirituales o artísticas."
+            },
+            "Pluton_Escorpio": {
+                "texto": "(Max Heindel - nota: interpretación post-1918) Plutón en su propio signo Escorpio indica transformación profunda, regeneración y el poder de renacer de las propias cenizas. La generación con esta posición está destinada a experimentar y generar cambios profundos en la sociedad."
+            }
+        },
+        "aspectos": {
+            "Sol_conjuncion_Luna": {
+                "texto": "(Max Heindel) No importa en qué signo o casa ocurra la conjunción de las Luminarias, la persona será tan fuertemente marcada con las características de ese signo que, careciendo de conocimiento de su verdadero ascendente, incluso el astrólogo más competente podría ser engañado. Si la conjunción del Sol y la Luna es más cercana que tres grados, tiene tendencia a agotar la vitalidad."
+            },
+            "Sol_sextil_Luna": {
+                "texto": "(Max Heindel) Los buenos aspectos del Sol y la Luna hacen para el éxito general en la vida, salud, fortunas financieras justas, buenas condiciones del hogar con amigos fieles y estima en la comunidad; favorecen un ascenso en la vida debido a la habilidad innata de la persona."
+            },
+            "Sol_cuadratura_Luna": {
+                "texto": "(Max Heindel) La cuadratura u oposición hace a la persona vacilante e inestable en disposición, cambiante e incapaz de perseguir un curso establecido en la vida, precipitada para lanzarse a empresas no probadas pero carente de la persistencia o continuidad de propósito para llevar algo a una conclusión exitosa."
+            },
+            "Sol_conjuncion_Marte": {
+                "texto": "(Max Heindel) La conjunción da tendencia a la fiebre, especialmente si ocurre en Aries, pero es curioso que las personas con esa configuración también parecen poder soportar una temperatura mucho más alta que otros. Estos aspectos producen una superabundancia de energía vital que asegura a su poseedor la salud más radiante durante toda la vida."
+            },
+            "Sol_sextil_Marte": {
+                "texto": "(Max Heindel) Estos aspectos fortalecen la constitución y hacen a la persona capaz de soportar las tareas más duras; le dan una determinación intrépida y coraje para enfrentar las mayores adversidades. Dada un plan a seguir, se puede confiar en que superará todos los obstáculos físicos porque tiene capacidad ejecutiva y constructiva junto con una voluntad indomable que se niega a reconocer la derrota."
+            },
+            "Sol_cuadratura_Marte": {
+                "texto": "(Max Heindel) Dota a la persona de abundancia de energía, facultad de liderazgo, pero se vuelven hacia propósitos de maldad y destrucción; el coraje implantado por los buenos aspectos se convierte en temeridad y la persona tiene una manera ruidosa, dominante y fanfarrona y está lista para pelear a la menor provocación."
+            },
+            "Venus_sextil_Marte": {
+                "texto": "(Max Heindel) Dará una naturaleza ambiciosa, aspirante y aventurera, amorosa y extremadamente demostrativa en su afecto y muy aficionada a los deportes y placeres. Da a la persona abundancia de energía y perspicacia comercial, consecuentemente tiene una espléndida capacidad de ganancia."
+            },
+            "Venus_cuadratura_Marte": {
+                "texto": "(Max Heindel) Da una naturaleza muy voluptuosa y sensual, propensa a excesos graves en la gratificación de las pasiones que agotarán la vitalidad. Es probable que quebrante la salud y constitución, dejando a la persona un naufragio en el mar de la vida si se le permite rienda suelta."
+            },
+            "Mercurio_sextil_Marte": {
+                "texto": "(Max Heindel) Da una mentalidad aguda, ingeniosa e ingeniosa. Hace a la persona entusiasta sobre cualquier proposición que le atraiga y también tiene la habilidad de entusiasmar a otros e impresionarlos con sus puntos de vista; un trabajador incansable en cualquier causa que despierte sus simpatías."
+            },
+            "Mercurio_cuadratura_Marte": {
+                "texto": "(Max Heindel) Hace a las personas de ingenio rápido, agudas y alertas, de temperamento rápido, impulsivas y excitables, propensas a saltar a conclusiones y actuar antes de pensar con el resultado inevitable de que siempre se están metiendo a sí mismos o a otros en problemas."
+            },
+            "Luna_sextil_Marte": {
+                "texto": "(Max Heindel) Da una vitalidad maravillosa y un físico fuerte de modo que la persona puede resistir casi cualquier tendencia a la mala salud. El poder de resistencia se incrementa y la persona puede sobrevivir dificultades a las que la gente ordinariamente sucumbe. Da una mente resuelta, valiente, enérgica y ambiciosa de un giro ingenioso y eminentemente constructivo."
+            },
+            "Luna_cuadratura_Marte": {
+                "texto": "(Max Heindel) Da un temperamento muy rápido y tendencia a expresiones y actos precipitados o impulsivos que pueden causar a tales personas mucha pena y problemas. Resienten las reglas o regulaciones o cualquier otra medida que tienda a frenar sus deseos o la gratificación de sus apetitos en cualquier dirección."
+            },
+            "Saturno_sextil_Marte": {
+                "texto": "(Max Heindel) Da una naturaleza determinada y enérgica capaz de acción intensa y sostenida y de obtener resultados inusuales por ello. La capacidad ejecutiva, la contundencia dominante y la resistencia de estas personas son notables y consecuentemente están constantemente logrando lo que otros no pueden alcanzar."
+            },
+            "Saturno_cuadratura_Marte": {
+                "texto": "(Max Heindel) Son aspectos completamente malos indicando una naturaleza egoísta, violenta, dura y cruel, de temperamento rápido y vengativo, absolutamente deshonesta, mentirosa y sin escrúpulos, dando propensión al descrédito público y encarcelamiento, también a accidentes y muerte violenta."
+            },
+            "Jupiter_sextil_Marte": {
+                "texto": "(Max Heindel) Es la naturaleza de Júpiter ser algo conservador y digno, pero cuando se mezcla con el fuego de Marte da un entusiasmo y habilidad para influir en otros e imbuirlos con los mismos sentimientos. Hace la naturaleza noble, sincera, honesta y directa."
+            },
+            "Jupiter_cuadratura_Marte": {
+                "texto": "(Max Heindel) Es la firma del jugador y si uno de los planetas está en un signo acuoso, especialmente en Piscis, también será un borracho, un carácter engañoso, deshonesto y de mala reputación que siempre actúa por impulso."
+            },
+            "Sol_sextil_Urano": {
+                "texto": "(Max Heindel) Hace a la persona original, inventiva e independiente en su manera de conducta y apariencia personal. Dada a actividades y estudios que la gente considera 'raros' como el ocultismo y la astrología. Pero también ama hurgar en los reinos desconocidos tras los secretos de la naturaleza concernientes a la electricidad."
+            },
+            "Sol_cuadratura_Urano": {
+                "texto": "(Max Heindel) Hace a la persona muy nerviosa, de alta tensión, de emociones descontroladas y lista para entrar en histeria con o sin provocación. Predispone a desórdenes nerviosos como baile de San Vito, epilepsia y falta de coordinación. Hace a las personas impulsivas, poco confiables y carentes de respeto por las convenciones."
+            },
+            "Venus_sextil_Urano": {
+                "texto": "(Max Heindel) Hace a la persona mentalmente alerta, de percepción intuitiva rápida y excesivamente magnética, especialmente para el sexo opuesto; y también atrae multitudes de amigos que serán de beneficio y asistencia para él. Estos aspectos dan amor por el arte, la música y la poesía."
+            },
+            "Venus_cuadratura_Urano": {
+                "texto": "(Max Heindel) La cuadratura u oposición siempre trae problemas a través de la relación sexual—disputas, divorcios, escándalos públicos a través de relaciones clandestinas y irregularidades afines, con pérdida de amigos, prestigio y popularidad, exilio del hogar y la familia."
+            },
+            "Mercurio_sextil_Urano": {
+                "texto": "(Max Heindel) Da una mente original, independiente y excéntrica impaciente de las cadenas de la moda, tradición y convención. Tal persona es enérgica en sus esfuerzos por labrarse un camino en completa libertad. Por tanto esta es la marca distintiva de los pioneros en pensamiento e invención, el signo del genio."
+            },
+            "Mercurio_cuadratura_Urano": {
+                "texto": "(Max Heindel) Mercurio en cuadratura u oposición a Urano es la marca distintiva del verdadero excéntrico o anarquista con ideas extremas para derribar la estructura social y emprender una reforma radical sin la habilidad de construir algo mejor."
+            },
+            "Luna_sextil_Urano": {
+                "texto": "(Max Heindel) Da gran originalidad e independencia a la mente que es rápida, intuitiva y muy vívida en su imaginación, por tanto la persona tiene habilidad inventiva; es atraída a las artes ocultas y está dotada de poderes hipnóticos o magnéticos, también la habilidad intuitiva para estudiar y practicar astrología."
+            }
+        }
+    }
+}

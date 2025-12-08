@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigue Tu Estrella | Astrología Moderna & Carta Astral</title>
+    <meta name="description"
+        content="Descubre el secreto del éxito escrito en las estrellas. Sigue Tu Estrella ofrece cartas astrales precisas, horóscopos con IA y compatibilidad avanzada.">
+    <meta name="keywords"
+        content="astrología, carta astral, horóscopo, IA, predicciones, compatibilidad, signos zodiacales, éxito">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://siguetuestrella.com/">
+    <meta property="og:title" content="Sigue Tu Estrella | Astrología Moderna">
+    <meta property="og:description"
+        content="Descubre tu mapa cósmico con la tecnología más avanzada de astrología e IA.">
+    <meta property="og:image" content="/static/images/og-image.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/modal.css">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sigue Tu Estrella",
+      "url": "https://siguetuestrella.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://siguetuestrella.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Background Animation -->
+    <div class="cosmos-bg" id="cosmos"></div>
+
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="/" class="logo">Sigue Tu Estrella</a>
+            <nav class="nav-links">
+                <a href="#carta">Carta Astral</a>
+                <a href="#horoscopo">Horóscopo IA</a>
+                <a href="#compatibilidad">Compatibilidad</a>
+                <a href="#blog">Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>El Universo en tus Manos</h1>
+                <p>Conecta con la sabiduría ancestral potenciada por inteligencia artificial. Descubre tu propósito, tu
+                    ritmo y tu éxito.</p>
+                <a href="#carta" class="cta-button">Descubre tu Mapa Astral</a>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section id="carta" class="calculator-section">
+            <div class="container">
+                <h2>Tu Carta Astral</h2>
+
+                <div class="glass-card">
+                    {% if error %}
+                    <div
+                        style="background: rgba(255, 0, 0, 0.2); color: #ff4444; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; text-align: center;">
+                        {{ error }}
+                    </div>
+                    {% endif %}
+
+                    <form method="POST" action="/#carta">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <input type="text" name="name" class="form-control" placeholder="Tu nombre cósmico"
+                                value="{{ request.form.name if request.form.name else '' }}">
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Día</label>
+                                <input type="number" name="day" class="form-control" placeholder="DD" min="1" max="31"
+                                    required value="{{ request.form.day }}">
+                            </div>
+                            <div class="form-group">
+                                <label>Mes</label>
+                                <input type="number" name="month" class="form-control" placeholder="MM" min="1" max="12"
+                                    required value="{{ request.form.month }}">
+                            </div>
+                            <div class="form-group">
+                                <label>Año</label>
+                                <input type="number" name="year" class="form-control" placeholder="AAAA" min="1900"
+                                    max="2100" required value="{{ request.form.year }}">
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Hora (0-23)</label>
+                                <input type="number" name="hour" class="form-control" placeholder="HH" min="0" max="23"
+                                    required value="{{ request.form.hour }}">
+                            </div>
+                            <div class="form-group">
+                                <label>Minuto</label>
+                                <input type="number" name="minute" class="form-control" placeholder="MM" min="0"
+                                    max="59" required value="{{ request.form.minute }}">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Ciudad de Nacimiento</label>
+                            <input type="text" name="city" class="form-control"
+                                placeholder="Ej: Madrid, Buenos Aires..." required value="{{ request.form.city }}">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Autor para la Interpretación</label>
+                            <select name="author_id" class="form-control"
+                                style="background: rgba(0, 0, 0, 0.3); color: white;">
+                                <option value="ali_aben_ragel">Ali Aben Ragel (Medieval - S. XI)</option>
+                                <option value="alan_leo">Alan Leo (Esotérico - S. XX)</option>
+                                <option value="max_heindel">Max Heindel (Rosacruz - S. XX)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="cta-button" style="width: 100%; margin-top: 1rem;">Calcular
+                            Ahora</button>
+                    </form>
+                </div>
+
+                {% if svg_content %}
+                <div class="chart-display">
+                    <h3>Tu Mapa Celestial</h3>
+                    <div class="chart-svg-container">
+                        {{ svg_content }}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if chart_data %}
+                <div class="data-grid" style="margin-top: 3rem;">
+                    <div class="glass-card">
+                        <h3>Posiciones Planetarias</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">Haz clic en
+                            cualquier planeta para ver su significado.</p>
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Cuerpo</th>
+                                    <th>Signo</th>
+                                    <th>Grado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in chart_data %}
+                                <tr class="planet-row" style="cursor: pointer; transition: background 0.2s;"
+                                    onmouseover="this.style.background='rgba(255,255,255,0.1)'"
+                                    onmouseout="this.style.background='transparent'"
+                                    data-interpretation="{{ item.interpretation }}"
+                                    data-title="{{ item.body }} en {{ item.sign }}"
+                                    data-author-name="{{ item.author_name }}" data-author-work="{{ item.author_work }}">
+                                    <td>{{ item.body }}</td>
+                                    <td>{{ item.sign }}</td>
+                                    <td>{{ item.degree }}°</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    {% if aspects_data %}
+                    <div class="glass-card">
+                        <h3>Aspectos Mayores</h3>
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Planeta 1</th>
+                                    <th>Aspecto</th>
+                                    <th>Planeta 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in aspects_data %}
+                                <tr>
+                                    <td>{{ item.p1 }}</td>
+                                    <td
+                                        class="{% if item.type in ['trine', 'sextile'] %}aspect-soft{% elif item.type in ['square', 'opposition'] %}aspect-hard{% endif %}">
+                                        {{ item.type }}
+                                    </td>
+                                    <td>{{ item.p2 }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+        </section>
+
+        <!-- Source Guarantee Section -->
+        <section id="bibliografia"
+            style="margin-top: 4rem; padding-bottom: 4rem; border-top: 1px solid var(--glass-border); padding-top: 2rem;">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <h2 style="font-family: var(--font-heading); color: var(--text-main); margin-bottom: 1rem;">
+                        📚 Biblioteca de Fuentes Originales
+                    </h2>
+                    <p style="max-width: 700px; margin: 0 auto; color: var(--text-muted); font-size: 1.1rem;">
+                        <strong>Haz clic en un autor</strong> para calcular tu carta con sus interpretaciones.
+                        <br>También puedes <em>leer los libros completos</em> en los enlaces de cada obra.
+                    </p>
+                </div>
+
+                <div class="glass-card" style="display: flex; flex-direction: column; gap: 1.5rem;">
+
+                    <!-- Book 1: Ali Aben Ragel -->
+                    <div class="author-book-card" data-author-id="ali_aben_ragel"
+                        style="display: flex; align-items: flex-start; gap: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; cursor: pointer; transition: all 0.3s ease;">
+                        <div style="font-size: 3rem; line-height: 1;">📜</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: var(--accent); margin-bottom: 0.3rem; font-size: 1.3rem;">
+                                El Libro Conplido en los Iudizios de las Estrellas
+                            </h3>
+                            <div style="color: white; font-weight: bold; margin-bottom: 0.5rem;">Ali Aben Ragel (Siglo
+                                XI)</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.8rem;">
+                                La obra cumbre de la astrología árabe medieval. Traducida en la corte de Alfonso X el
+                                Sabio.
+                            </p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <span class="interpret-btn"
+                                    style="background: var(--accent); color: black; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">
+                                    ⚡ Interpretar con este Autor
+                                </span>
+                                <a href="https://www.cervantesvirtual.com/obra-visor/el-libro-conplido-en-los-iudizios-de-las-estrellas--0/html/"
+                                    target="_blank" onclick="event.stopPropagation();"
+                                    style="background: rgba(255,255,255,0.1); color: var(--text-main); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; text-decoration: none;">
+                                    📖 Leer Libro Completo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 2: Alan Leo -->
+                    <div class="author-book-card" data-author-id="alan_leo"
+                        style="display: flex; align-items: flex-start; gap: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; cursor: pointer; transition: all 0.3s ease;">
+                        <div style="font-size: 3rem; line-height: 1;">📖</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: var(--secondary); margin-bottom: 0.3rem; font-size: 1.3rem;">
+                                Esoteric Astrology: A Study of Human Nature
+                            </h3>
+                            <div style="color: white; font-weight: bold; margin-bottom: 0.5rem;">Alan Leo (1913)</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.8rem;">
+                                Texto fundacional de la astrología psicológica. Enfoque teosófico sobre el alma y el
+                                karma.
+                            </p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <span class="interpret-btn"
+                                    style="background: var(--secondary); color: black; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">
+                                    ⚡ Interpretar con este Autor
+                                </span>
+                                <a href="https://archive.org/details/esotericastrolog00leoa/mode/2up" target="_blank"
+                                    onclick="event.stopPropagation();"
+                                    style="background: rgba(255,255,255,0.1); color: var(--text-main); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; text-decoration: none;">
+                                    📖 Leer en Archive.org
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book 3: Max Heindel -->
+                    <div class="author-book-card" data-author-id="max_heindel"
+                        style="display: flex; align-items: flex-start; gap: 1.5rem; padding: 1.5rem; border-radius: 12px; cursor: pointer; transition: all 0.3s ease;">
+                        <div style="font-size: 3rem; line-height: 1;">✨</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: #ffaa00; margin-bottom: 0.3rem; font-size: 1.3rem;">
+                                The Message of the Stars
+                            </h3>
+                            <div style="color: white; font-weight: bold; margin-bottom: 0.5rem;">Max Heindel (1919)
+                            </div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.8rem;">
+                                Obra clave del misticismo Rosacruz. Enfoque médico y espiritual del horóscopo.
+                            </p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <span class="interpret-btn"
+                                    style="background: #ffaa00; color: black; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">
+                                    ⚡ Interpretar con este Autor
+                                </span>
+                                <a href="https://www.rosicrucian.com/mos/moseng00.htm" target="_blank"
+                                    onclick="event.stopPropagation();"
+                                    style="background: rgba(255,255,255,0.1); color: var(--text-main); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; text-decoration: none;">
+                                    📖 Leer en Rosicrucian.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Términos</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Contacto</a>
+            </div>
+            <p>&copy; 2024 Sigue Tu Estrella. El secreto del éxito.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Container -->
+    <div id="interpretation-modal" class="ste-modal-overlay">
+        <div class="ste-modal-content">
+            <button class="ste-modal-close" onclick="closeModal()">&times;</button>
+            <div class="ste-modal-header">
+                <h3 class="ste-modal-title" id="modal-title">Título</h3>
+                <div class="ste-modal-subtitle">Interpretación Clásica</div>
+            </div>
+            <div class="ste-modal-body" id="modal-body">
+                <p>Cargando interpretación...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Simple Star Generation
+        const cosmos = document.getElementById('cosmos');
+        const starCount = 100;
+
+        for (let i = 0; i < starCount; i++) {
+            const star = document.createElement('div');
+            star.classList.add('star');
+            const x = Math.random() * 100;
+            const y = Math.random() * 100;
+            const size = Math.random() * 3;
+            const duration = Math.random() * 3 + 2;
+
+            star.style.left = `${x}%`;
+            star.style.top = `${y}%`;
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.setProperty('--duration', `${duration}s`);
+
+            cosmos.appendChild(star);
+        }
+
+        // Modal Logic
+        const modal = document.getElementById('interpretation-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalBody = document.getElementById('modal-body');
+
+        function openModal(title, text, authorName, authorWork) {
+            modalTitle.textContent = title;
+            modalBody.innerHTML = `
+                <div style="border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                    <strong style="color: var(--accent); font-family: var(--font-heading);">📖 ${authorName || 'Fuente Clásica'}</strong>
+                    <div style="font-size: 0.8rem; color: var(--text-muted);">${authorWork || ''}</div>
+                </div>
+                <p style="font-size: 1.1rem; line-height: 1.8;">${text}</p>
+            `;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            modal.classList.remove('active');
+        }
+
+        // Close on click outside
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Add event listeners to planet rows
+        document.querySelectorAll('.planet-row').forEach(row => {
+            row.addEventListener('click', function () {
+                const text = this.dataset.interpretation;
+                const title = this.dataset.title;
+                const authorName = this.dataset.authorName || 'Fuente Clásica';
+                const authorWork = this.dataset.authorWork || '';
+                openModal(title, text, authorName, authorWork);
+            });
+        });
+
+        // ========================================
+        // AUTHOR BOOK CLICK HANDLER
+        // ========================================
+        $(document).ready(function () {
+            // Handle Author Book Clicks -> Auto Calculate
+            $('.author-book-card').on('click', function () {
+                const authorId = $(this).data('author-id');
+                if (!authorId) return;
+
+                // Visual feedback
+                $('.author-book-card').removeClass('active-book');
+                $(this).addClass('active-book');
+
+                // Update the author select dropdown
+                $('select[name="author_id"]').val(authorId);
+
+                // Get form data
+                const $form = $('form').first();
+                const name = $form.find('[name="name"]').val();
+                const day = $form.find('[name="day"]').val();
+                const month = $form.find('[name="month"]').val();
+                const year = $form.find('[name="year"]').val();
+                const hour = $form.find('[name="hour"]').val();
+                const minute = $form.find('[name="minute"]').val();
+                const city = $form.find('[name="city"]').val();
+
+                // Check if form has data
+                if (!day || !month || !year || !city) {
+                    // No data yet, scroll to form
+                    $('html, body').animate({
+                        scrollTop: $('#carta').offset().top - 100
+                    }, 500);
+                    alert('Por favor, completa primero tus datos de nacimiento arriba.');
+                    return;
+                }
+
+                // Show loading
+                const $btn = $form.find('button[type="submit"]');
+                $btn.prop('disabled', true).text('Calculando...');
+
+                // Make AJAX call
+                $.ajax({
+                    url: '/api/calculate',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({
+                        name: name,
+                        day: day,
+                        month: month,
+                        year: year,
+                        hour: hour,
+                        minute: minute,
+                        city: city,
+                        author_id: authorId
+                    }),
+                    success: function (response) {
+                        if (response.success) {
+                            // Reload page with results (simpler approach for Jinja template)
+                            // Or update the DOM dynamically
+                            location.reload();
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('Error al calcular. Por favor, intenta de nuevo.');
+                    },
+                    complete: function () {
+                        $btn.prop('disabled', false).text('Calcular Ahora');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

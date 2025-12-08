@@ -1,0 +1,26 @@
+# COMANDOS PARA SUBIR A GITHUB
+# Copia y pega estos comandos UNO POR UNO en la Terminal
+
+# 1. Ir a la carpeta del proyecto
+cd /Users/franciscomanuel/.gemini/antigravity/playground/spectral-photosphere
+
+# 2. Añadir todos los archivos
+git add .
+
+# 3. Hacer el primer commit
+git commit -m "Initial commit - Sigue Tu Estrella API"
+
+# 4. Conectar con tu repositorio de GitHub
+# ⚠️ IMPORTANTE: Cambia "TU_USUARIO" por tu nombre de usuario de GitHub
+git remote add origin https://github.com/TU_USUARIO/sigue-tu-estrella-api.git
+
+# 5. Cambiar a la rama main
+git branch -M main
+
+# 6. Subir el código
+git push -u origin main
+
+# Cuando te pida usuario y contraseña:
+# - Usuario: tu nombre de usuario de GitHub
+# - Contraseña: usa un Personal Access Token (no tu contraseña normal)
+#   Crea uno en: https://github.com/settings/tokens
