@@ -36,7 +36,7 @@ def get_progressed_date(birth_dt, current_dt):
     prog_date = birth_dt + timedelta(days=days_to_add)
     return prog_date
 
-def calculate_aspects_between_charts(chart1_objs, chart2_objs, chart1_name="Natal", chart2_name="Transit"):
+def calculate_aspects_between_charts(chart1_objs, chart2_objs, chart1_name="Natal", chart2_name="Transit", custom_orb_map=None):
     """
     Calculates aspects between two sets of planetary positions.
     chart1_objs: list of dicts {'name': 'Sun', 'position': 123.4} (Natal)
@@ -45,7 +45,7 @@ def calculate_aspects_between_charts(chart1_objs, chart2_objs, chart1_name="Nata
     aspects = []
     
     # Orbs allowed for transits (Widened for better results)
-    orb_map = {
+    orb_map = custom_orb_map if custom_orb_map else {
         'conjunction': 5.0, # Sun/Moon/Fast moved needs more
         'opposition': 3.0,
         'square': 3.0,
@@ -879,21 +879,50 @@ def api_calculate():
             ('Mercurio', prog_subject.mercury), ('Venus', prog_subject.venus), ('Marte', prog_subject.mars)
         ]
         
+        
+        # Calculate Progressed Aspects to Natal
+        # For progressions, orbs are usually tight (1 degree)
+        prog_orb_map = {
+            'conjunction': 1.5,
+            'opposition': 1.5,
+            'square': 1.5,
+            'trine': 1.5,
+            'sextile': 1.0
+        }
+        
+        prog_bodies_struct = []
         for name_es, body_obj in prog_bodies_list:
-             # Interpret Sign Position of Progressed Planet
-             s_english = body_obj['sign']
-             s_key = sign_map.get(s_english, s_english)
-             p_key = planet_key_map.get(name_es, name_es)
-             
-             lookup_key = f"{p_key}_{s_key}"
-             interp = author_data.get(lookup_key, {}).get('texto', "")
-             
-             prog_data.append({
-                 'body': name_es,
-                 'sign': s_key,
-                 'degree': f"{body_obj['position']:.2f}",
-                 'interpretation': interp # Reusing natal sign interp for progressed sign is valid in classical astro (the nature is the same)
-             })
+            prog_bodies_struct.append({'name': name_es, 'position': body_obj['position']})
+
+        # Calculate aspects between Progressed and Natal
+        prog_aspects_list = calculate_aspects_between_charts(
+            natal_bodies_struct, 
+            prog_bodies_struct, 
+            chart1_name="Natal", 
+            chart2_name="Progressed",
+            custom_orb_map=prog_orb_map
+        )
+        
+        processed_prog_aspects = []
+        for pa in prog_aspects_list:
+            # Generate generic text for now, or fetch from DB if available
+            # "Sol (P) Conjunción Luna (N)"
+            aspect_name_es = translateAspect(pa['type'])
+            p_prog = pa['p2_name'] # chart2 is prog
+            p_natal = pa['p1_name'] # chart1 is natal
+            
+            # Simple interpretation text
+            text = f"Evolución significativa: {p_prog} progresado en aspecto de {aspect_name_es} con {p_natal} natal."
+            
+            processed_prog_aspects.append({
+                'planet_prog': p_prog,
+                'planet_natal': p_natal,
+                'aspect': pa['type'], # raw key for frontend translation
+                'orb': f"{pa['orb']:.2f}",
+                'interpretation': text
+            })
+            
+        prog_data = processed_prog_aspects # Replace the old list with aspects list
 
         return jsonify({
             'success': True,
@@ -935,11 +964,7 @@ def api_sky_now():
         def get_sign_info(sign_abbr):
             sign_map = {
                  'Ari': ('Aries', '♈'), 'Tau': ('Tauro', '♉'), 'Gem': ('Géminis', '♊'), 
-<<<<<<< HEAD
-                 'Can': ('Cáncer', '♋'), 'Leo': ('Leo', '♌'), 'Vir': 'Virgo', '♍', 
-=======
                  'Can': ('Cáncer', '♋'), 'Leo': ('Leo', '♌'), 'Vir': ('Virgo', '♍'), 
->>>>>>> cf8ad6a (Fix transit aspects: widen orbs and correct language mapping)
                  'Lib': ('Libra', '♎'), 'Sco': ('Escorpio', '♏'), 'Sag': ('Sagitario', '♐'), 
                  'Cap': ('Capricornio', '♑'), 'Aqu': ('Acuario', '♒'), 'Pis': ('Piscis', '♓')
             }
