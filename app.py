@@ -44,13 +44,13 @@ def calculate_aspects_between_charts(chart1_objs, chart2_objs, chart1_name="Nata
     """
     aspects = []
     
-    # Orbs allowed for transits (very tight for significance)
+    # Orbs allowed for transits (Widened for better results)
     orb_map = {
-        'conjunction': 1.0,
-        'opposition': 1.0,
-        'square': 1.0,
-        'trine': 1.0,
-        'sextile': 0.8
+        'conjunction': 5.0, # Sun/Moon/Fast moved needs more
+        'opposition': 3.0,
+        'square': 3.0,
+        'trine': 3.0,
+        'sextile': 2.0
     }
     
     for p1 in chart1_objs:
@@ -92,6 +92,7 @@ def calculate_aspects_between_charts(chart1_objs, chart2_objs, chart1_name="Nata
                     'orb': orb,
                     'is_transit': True
                 })
+                print(f"DEBUG ASPECT: {p1['name']} (T) vs {p2['name']} (N) -> {aspect_type} (Orb: {orb:.2f})")
                 
     return aspects
 
@@ -441,7 +442,13 @@ def home():
             'sextile': 'sextil',
             'square': 'cuadratura', 
             'trine': 'trigono',
-            'opposition': 'oposicion'
+            'opposition': 'oposicion',
+            # Add Spanish keys too for robustness
+            'conjuncion': 'conjuncion',
+            'sextil': 'sextil',
+            'cuadratura': 'cuadratura',
+            'trigono': 'trigono',
+            'oposicion': 'oposicion'
         }
         return aspect_map.get(aspect_name.lower(), aspect_name)
     
@@ -928,7 +935,11 @@ def api_sky_now():
         def get_sign_info(sign_abbr):
             sign_map = {
                  'Ari': ('Aries', '♈'), 'Tau': ('Tauro', '♉'), 'Gem': ('Géminis', '♊'), 
+<<<<<<< HEAD
                  'Can': ('Cáncer', '♋'), 'Leo': ('Leo', '♌'), 'Vir': 'Virgo', '♍', 
+=======
+                 'Can': ('Cáncer', '♋'), 'Leo': ('Leo', '♌'), 'Vir': ('Virgo', '♍'), 
+>>>>>>> cf8ad6a (Fix transit aspects: widen orbs and correct language mapping)
                  'Lib': ('Libra', '♎'), 'Sco': ('Escorpio', '♏'), 'Sag': ('Sagitario', '♐'), 
                  'Cap': ('Capricornio', '♑'), 'Aqu': ('Acuario', '♒'), 'Pis': ('Piscis', '♓')
             }
