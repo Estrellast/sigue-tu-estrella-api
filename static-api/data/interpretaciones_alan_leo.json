@@ -1,0 +1,311 @@
+{
+    "source": {
+        "book": "The Art of Synthesis / Esoteric Astrology",
+        "author": "Alan Leo (William Frederick Allan)",
+        "year_original": "1912-1913",
+        "edition": "Original Edition",
+        "source_url": "https://archive.org/details/artofsynthesis00leoauoft",
+        "license": "Dominio Público",
+        "notes": "Textos basados en las obras de Alan Leo, pionero de la astrología moderna y psicológica. Énfasis en el desarrollo del carácter y la evolución espiritual."
+    },
+    "autor": {
+        "id": "alan_leo",
+        "nombre": "Alan Leo",
+        "nombre_completo": "William Frederick Allan",
+        "obra_principal": "The Art of Synthesis, Esoteric Astrology, Astrology for All",
+        "enfoque": "Astrología Psicológica y Espiritual - Desarrollo del Carácter"
+    },
+    "interpretaciones": {
+        "planetas": {
+            "Sol": {
+                "descripcion_general": "El Sol representa la individualidad, el verdadero Yo interno, el centro del ser. Es el símbolo del Ego, la voluntad consciente y el propósito de vida. El Sol muestra la cualidad esencial del alma y el tipo de experiencias que el individuo busca para su evolución espiritual.",
+                "naturaleza": "El Sol es el dador de vida, la fuente de energía vital y consciencia. Representa la voluntad, el poder, la autoridad y la capacidad de liderazgo. Es masculino, positivo y creativo.",
+                "significados": "Gobierna la vitalidad, el corazón, la columna vertebral, el honor, el orgullo, la ambición y la capacidad de brillar. Indica la relación con figuras de autoridad y la propia autoridad."
+            },
+            "Luna": {
+                "descripcion_general": "La Luna representa la personalidad, los instintos, las emociones y la naturaleza receptiva. Es el vehículo a través del cual el Sol se manifiesta en el mundo material. La Luna refleja los hábitos, memorias y el subconsciente.",
+                "naturaleza": "La Luna es la madre, lo femenino, lo receptivo y cambiante. Gobierna las fluctuaciones emocionales, la imaginación, los sueños y la intuición. Es el principio de adaptación y respuesta.",
+                "significados": "Rige el hogar, la familia, la madre, el público, las masas, los líquidos, los cambios y ciclos. Influye en la digestión, el sistema linfático y la fertilidad."
+            },
+            "Mercurio": {
+                "descripcion_general": "Mercurio representa la mente concreta, el intelecto, la comunicación y la capacidad de razonamiento. Es el mensajero entre el Yo superior y la personalidad, facilitando el aprendizaje y la expresión.",
+                "naturaleza": "Mercurio es neutral, adoptando la naturaleza de los planetas con los que se asocia. Gobierna la percepción, la dualidad mental, la curiosidad y la adaptabilidad intelectual.",
+                "significados": "Rige la comunicación, los escritos, los viajes cortos, el comercio, la educación primaria, los hermanos, vecinos y el sistema nervioso."
+            },
+            "Venus": {
+                "descripcion_general": "Venus representa el amor, la armonía, la belleza y los valores personales. Simboliza la capacidad de atraer y apreciar, el sentido estético y las relaciones afectivas. Es el principio de unión y cooperación.",
+                "naturaleza": "Venus es benéfica, femenina y receptiva. Promueve la paz, el placer, el refinamiento y la sociabilidad. Busca el equilibrio, la justicia y la expresión artística.",
+                "significados": "Gobierna el amor, el matrimonio, las asociaciones, el arte, la música, el dinero, los placeres sensuales, la garganta y los riñones."
+            },
+            "Marte": {
+                "descripcion_general": "Marte representa la energía activa, la iniciativa, el coraje y la capacidad de acción. Es la fuerza que impulsa hacia adelante, la voluntad en acción, el deseo y la pasión.",
+                "naturaleza": "Marte es masculino, caliente y seco. Gobierna la agresividad, la competitividad, la sexualidad activa y la capacidad de lucha. Puede ser constructivo o destructivo según su uso.",
+                "significados": "Rige la guerra, los conflictos, la cirugía, los accidentes, la fiebre, la cabeza, los músculos, la sangre y el sistema reproductor masculino."
+            },
+            "Jupiter": {
+                "descripcion_general": "Júpiter representa la expansión, el crecimiento, la sabiduría y la búsqueda de significado. Es el Gran Benéfico, simbolizando la fortuna, la generosidad y las oportunidades de desarrollo.",
+                "naturaleza": "Júpiter es benéfico, cálido y húmedo. Promueve el optimismo, la fe, la filosofía y la comprensión superior. Expande todo lo que toca, para bien o para mal.",
+                "significados": "Gobierna la religión, la filosofía, la educación superior, los viajes largos, la ley, la justicia, el hígado, las caderas y el crecimiento celular."
+            },
+            "Saturno": {
+                "descripcion_general": "Saturno representa la limitación, la estructura, la disciplina y las lecciones kármicas. Es el Maestro, enseñando a través de la restricción, la paciencia y la perseverancia. Simboliza el tiempo y la madurez.",
+                "naturaleza": "Saturno es frío y seco, restrictivo pero necesario. Gobierna la cristalización, la forma, los límites y la responsabilidad. Trae pruebas pero también logros duraderos.",
+                "significados": "Rige el karma, el tiempo, la vejez, la autoridad, las estructuras, los huesos, la piel, los dientes, las articulaciones y el sistema esquelético."
+            }
+        },
+        "planetas_signos": {
+            "Sol_Aries": {
+                "texto": "(Alan Leo) El Sol en Aries dota al individuo de fuerte voluntad propia y opiniones definidas. Tienden a operar con sus propios métodos y pueden ser reacios a aceptar consejos. Son pioneros por naturaleza, con una cualidad que destruye para que otros puedan construir. Poseen abundante espíritu y energía, y su tarea en la vida es aprender a equilibrar y guiar sus fuerzas hacia la utilidad y el servicio."
+            },
+            "Sol_Tauro": {
+                "texto": "(Alan Leo) El Sol en Tauro confiere una naturaleza emocional y sensorial profunda. Existe tendencia a exagerar, sobreestimar situaciones e ir a los extremos. Las afecciones pueden a veces conducir por caminos desafortunados, con expresión pronunciada de gustos y aversiones intensos. Se aconseja cautela contra la sobreindulgencia."
+            },
+            "Sol_Geminis": {
+                "texto": "(Alan Leo) El Sol en Géminis produce una mente activa, curiosa y versátil. La naturaleza dual de Géminis crea flexibilidad intelectual pero también puede causar dispersión. Hay facilidad para la comunicación, el aprendizaje y la adaptación. El desafío es desarrollar concentración y profundidad."
+            },
+            "Sol_Cancer": {
+                "texto": "(Alan Leo) El Sol en Cáncer otorga sensibilidad emocional profunda y fuerte conexión con el hogar y la familia. La naturaleza es receptiva, protectora y nutriente. Hay tendencia a la nostalgia y apego al pasado. El desarrollo viene a través de aprender a equilibrar las emociones con la razón."
+            },
+            "Sol_Leo": {
+                "texto": "(Alan Leo) El Sol en Leo, su propio signo, confiere dignidad, creatividad y necesidad de reconocimiento. Hay nobleza natural, generosidad y capacidad de liderazgo. El orgullo puede ser tanto una virtud como un obstáculo. La lección es aprender a brillar sin necesidad de aplausos externos."
+            },
+            "Sol_Virgo": {
+                "texto": "(Alan Leo) El Sol en Virgo produce una mente analítica, práctica y orientada al servicio. Hay atención al detalle, capacidad crítica y deseo de perfección. El desafío es evitar la excesiva autocrítica y apreciar el valor de la imperfección como parte del proceso de crecimiento."
+            },
+            "Sol_Libra": {
+                "texto": "(Alan Leo) El Sol en Libra otorga amor por la armonía, la justicia y las relaciones. Hay capacidad diplomática y apreciación estética. La tendencia a la indecisión y dependencia de otros debe equilibrarse con el desarrollo de la propia identidad y voluntad."
+            },
+            "Sol_Escorpio": {
+                "texto": "(Alan Leo) El Sol en Escorpio confiere intensidad emocional, poder de transformación y profundidad psicológica. Hay capacidad para la regeneración y la curación. El desafío es canalizar la intensidad hacia propósitos constructivos y trascender los deseos inferiores."
+            },
+            "Sol_Sagitario": {
+                "texto": "(Alan Leo) El Sol en Sagitario produce amor por la libertad, la filosofía y la expansión. Hay optimismo natural, espíritu aventurero y búsqueda de significado. El exceso de dispersión y falta de atención a los detalles debe equilibrarse con disciplina."
+            },
+            "Sol_Capricornio": {
+                "texto": "(Alan Leo) El Sol en Capricornio otorga ambición, determinación y capacidad de logro práctico. Hay sentido del deber, responsabilidad y paciencia. El materialismo y la frialdad emocional deben temperarse con el cultivo de la calidez y la compasión."
+            },
+            "Sol_Acuario": {
+                "texto": "(Alan Leo) El Sol en Acuario confiere originalidad, independencia y visión humanitaria. Hay capacidad para el pensamiento innovador y el trabajo por causas colectivas. El exceso de excentricidad y desapego emocional debe equilibrarse con conexiones personales genuinas."
+            },
+            "Sol_Piscis": {
+                "texto": "(Alan Leo) El Sol en Piscis produce sensibilidad psíquica, compasión y naturaleza espiritual. Hay capacidad para la empatía y la inspiración artística. La tendencia a la evasión y la confusión debe equilibrarse con el desarrollo de límites claros y propósito definido."
+            },
+            "Luna_Aries": {
+                "texto": "(Alan Leo) La Luna en Aries produce emociones rápidas, impulsivas y enérgicas. Hay necesidad de independencia emocional y tendencia a reacciones directas. El temperamento puede ser volátil pero también valiente y pionero en el ámbito emocional."
+            },
+            "Luna_Tauro": {
+                "texto": "(Alan Leo) La Luna en Tauro otorga estabilidad emocional, resistencia y necesidad de seguridad material. Las emociones son constantes pero pueden volverse posesivas. Hay apreciación por el confort, la belleza y los placeres sensuales."
+            },
+            "Luna_Geminis": {
+                "texto": "(Alan Leo) La Luna en Géminis produce emociones cambiantes, curiosidad emocional y necesidad de estimulación mental. Hay habilidad para expresar los sentimientos verbalmente pero puede haber superficialidad emocional."
+            },
+            "Luna_Cancer": {
+                "texto": "(Alan Leo) La Luna en Cáncer, su propio signo, está en su máxima expresión. Las emociones son profundas, protectoras y sensibles. Fuerte conexión con la familia, el hogar y el pasado. Gran capacidad nutritiva pero tendencia a fluctuaciones emocionales."
+            },
+            "Luna_Leo": {
+                "texto": "(Alan Leo) La Luna en Leo produce emociones cálidas, dramáticas y generosas. Necesidad de reconocimiento emocional y expresión creativa de los sentimientos. El orgullo emocional puede interferir con la vulnerabilidad genuina."
+            },
+            "Luna_Virgo": {
+                "texto": "(Alan Leo) La Luna en Virgo produce emociones prácticas, analíticas y orientadas al servicio. Tendencia a la preocupación y la autocrítica emocional. Necesidad de que las emociones tengan propósito útil."
+            },
+            "Luna_Libra": {
+                "texto": "(Alan Leo) La Luna en Libra otorga necesidad de armonía emocional y relaciones equilibradas. Las emociones buscan la paz y la belleza. Puede haber dependencia emocional de otros y dificultad con las decisiones."
+            },
+            "Luna_Escorpio": {
+                "texto": "(Alan Leo) La Luna en Escorpio produce emociones intensas, profundas y transformadoras. Hay poder emocional pero también tendencia a los celos y resentimientos. Gran capacidad para la regeneración emocional."
+            },
+            "Luna_Sagitario": {
+                "texto": "(Alan Leo) La Luna en Sagitario produce emociones optimistas, expansivas y filosóficas. Necesidad de libertad emocional y aventura. Puede haber exceso de idealismo y dificultad para comprometerse emocionalmente."
+            },
+            "Luna_Capricornio": {
+                "texto": "(Alan Leo) La Luna en Capricornio produce emociones controladas, prácticas y orientadas hacia logros. Puede haber frialdad aparente que esconde sensibilidad. Necesidad de seguridad emocional a través del éxito."
+            },
+            "Luna_Acuario": {
+                "texto": "(Alan Leo) La Luna en Acuario produce emociones independientes, humanitarias pero a veces desapegadas. Necesidad de libertad emocional y amistad. Las respuestas emocionales pueden ser impredecibles."
+            },
+            "Luna_Piscis": {
+                "texto": "(Alan Leo) La Luna en Piscis produce emociones compasivas, intuitivas y absorbentes. Gran sensibilidad psíquica pero tendencia a absorber las emociones de otros. Necesidad de expresión artística o espiritual."
+            },
+            "Mercurio_Aries": {
+                "texto": "(Alan Leo) Mercurio en Aries produce pensamiento rápido, directo y pionero. La mente es competitiva y busca nuevas ideas. Puede haber impulsividad mental y tendencia a la argumentación."
+            },
+            "Mercurio_Tauro": {
+                "texto": "(Alan Leo) Mercurio en Tauro produce pensamiento práctico, metódico y orientado hacia los sentidos. La mente es persistente pero puede ser obstinada. Buenos para asuntos financieros y materiales."
+            },
+            "Mercurio_Geminis": {
+                "texto": "(Alan Leo) Mercurio en Géminis, su propio signo, produce mente versátil, comunicativa y curiosa. Gran facilidad verbal y mental. Puede haber dispersión y superficialidad."
+            },
+            "Mercurio_Cancer": {
+                "texto": "(Alan Leo) Mercurio en Cáncer produce pensamiento intuitivo, emocional y con buena memoria. La mente está influenciada por las emociones. Buenos para comprender las necesidades de otros."
+            },
+            "Mercurio_Leo": {
+                "texto": "(Alan Leo) Mercurio en Leo produce pensamiento creativo, dramático y con autoridad. La mente busca reconocimiento por sus ideas. Buenos para la expresión artística y el liderazgo intelectual."
+            },
+            "Mercurio_Virgo": {
+                "texto": "(Alan Leo) Mercurio en Virgo, uno de sus signos, produce mente analítica, discriminativa y práctica. Excelente para el trabajo detallado pero puede ser demasiado crítico."
+            },
+            "Mercurio_Libra": {
+                "texto": "(Alan Leo) Mercurio en Libra produce pensamiento equilibrado, diplomático y justo. La mente busca la armonía y considera todos los puntos de vista. Puede haber indecisión."
+            },
+            "Mercurio_Escorpio": {
+                "texto": "(Alan Leo) Mercurio en Escorpio produce pensamiento penetrante, investigador y psicológico. La mente busca la verdad oculta. Puede haber tendencia a la sospecha o el sarcasmo."
+            },
+            "Mercurio_Sagitario": {
+                "texto": "(Alan Leo) Mercurio en Sagitario produce pensamiento filosófico, expansivo y optimista. La mente busca el significado amplio. Puede descuidar los detalles."
+            },
+            "Mercurio_Capricornio": {
+                "texto": "(Alan Leo) Mercurio en Capricornio produce pensamiento estructurado, ambicioso y orientado a objetivos. La mente es práctica y disciplinada. Puede ser demasiado serio o pesimista."
+            },
+            "Mercurio_Acuario": {
+                "texto": "(Alan Leo) Mercurio en Acuario produce pensamiento original, independiente y humanitario. La mente es inventiva y orientada al futuro. Puede ser rebelde intelectualmente."
+            },
+            "Mercurio_Piscis": {
+                "texto": "(Alan Leo) Mercurio en Piscis produce pensamiento intuitivo, imaginativo y compasivo. La mente es receptiva pero puede confundirse fácilmente. Buenos para la expresión artística."
+            },
+            "Venus_Aries": {
+                "texto": "(Alan Leo) Venus en Aries produce afectos ardientes, impulsivos y directos en el amor. Hay apasionamiento y tendencia a enamorarse rápidamente. Puede haber egoísmo en las relaciones."
+            },
+            "Venus_Tauro": {
+                "texto": "(Alan Leo) Venus en Tauro, uno de sus signos, produce afectos constantes, sensuales y posesivos. Hay apreciación por la belleza física y el confort. Las relaciones son estables pero pueden volverse rutinarias."
+            },
+            "Venus_Geminis": {
+                "texto": "(Alan Leo) Venus en Géminis produce afectos variados, curiosos e intelectuales. Hay encanto social y facilidad para la comunicación afectiva. Puede haber superficialidad o inconstancia."
+            },
+            "Venus_Cancer": {
+                "texto": "(Alan Leo) Venus en Cáncer produce afectos protectores, nutritivos y sentimentales. El amor se expresa a través del cuidado. Fuerte apego emocional pero también vulnerabilidad."
+            },
+            "Venus_Leo": {
+                "texto": "(Alan Leo) Venus en Leo produce afectos cálidos, generosos y dramáticos. Hay necesidad de admiración en el amor. El romanticismo es importante pero puede haber vanidad."
+            },
+            "Venus_Virgo": {
+                "texto": "(Alan Leo) Venus en Virgo produce afectos prácticos, reservados y críticos. El amor se expresa a través del servicio. Puede haber dificultad para expresar los sentimientos abiertamente."
+            },
+            "Venus_Libra": {
+                "texto": "(Alan Leo) Venus en Libra, su propio signo, produce afectos armoniosos, equilibrados y sociales. Gran capacidad para las relaciones y apreciación estética. Puede haber dependencia."
+            },
+            "Venus_Escorpio": {
+                "texto": "(Alan Leo) Venus en Escorpio produce afectos intensos, profundos y transformadores. El amor es apasionado pero puede ser celoso. Gran poder de atracción magnética."
+            },
+            "Venus_Sagitario": {
+                "texto": "(Alan Leo) Venus en Sagitario produce afectos expansivos, filosóficos y aventureros. El amor busca libertad y crecimiento. Puede haber dificultad para el compromiso."
+            },
+            "Venus_Capricornio": {
+                "texto": "(Alan Leo) Venus en Capricornio produce afectos serios, constantes y orientados hacia la estabilidad. El amor se combina con ambición práctica. Puede parecer frío pero es leal."
+            },
+            "Venus_Acuario": {
+                "texto": "(Alan Leo) Venus en Acuario produce afectos independientes, amistosos y humanitarios. El amor valora la libertad y la originalidad. Puede haber desapego emocional."
+            },
+            "Venus_Piscis": {
+                "texto": "(Alan Leo) Venus en Piscis, su exaltación, produce afectos compasivos, románticos e idealizados. Gran capacidad para el amor incondicional pero tendencia a la fantasía."
+            },
+            "Marte_Aries": {
+                "texto": "(Alan Leo) Marte en Aries, su propio signo, produce energía poderosa, pionera y combativa. Gran capacidad de iniciativa y coraje. Puede ser impulsivo y agresivo."
+            },
+            "Marte_Tauro": {
+                "texto": "(Alan Leo) Marte en Tauro produce energía constante, determinada y orientada hacia objetivos materiales. La fuerza es resistente pero puede ser obstinada."
+            },
+            "Marte_Geminis": {
+                "texto": "(Alan Leo) Marte en Géminis produce energía mental, versátil y comunicativa. La acción se expresa a través de palabras e ideas. Puede haber dispersión de esfuerzos."
+            },
+            "Marte_Cancer": {
+                "texto": "(Alan Leo) Marte en Cáncer puede producir energía emocional fluctuante y defensiva. La acción está motivada por emociones y necesidades de seguridad. Puede haber pasividad agresiva."
+            },
+            "Marte_Leo": {
+                "texto": "(Alan Leo) Marte en Leo produce energía creativa, dramática y confiada. Gran capacidad de liderazgo y expresión personal. Puede haber arrogancia."
+            },
+            "Marte_Virgo": {
+                "texto": "(Alan Leo) Marte en Virgo produce energía metódica, eficiente y orientada al trabajo. La acción es práctica y detallista. Puede haber tendencia a la crítica excesiva."
+            },
+            "Marte_Libra": {
+                "texto": "(Alan Leo) Marte en Libra produce energía diplomática, social y orientada hacia las relaciones. Puede haber dificultad para la acción decisiva. Busca el equilibrio."
+            },
+            "Marte_Escorpio": {
+                "texto": "(Alan Leo) Marte en Escorpio, uno de sus signos, produce energía intensa, investigadora y transformadora. Gran poder de voluntad pero puede ser destructivo si no se canaliza."
+            },
+            "Marte_Sagitario": {
+                "texto": "(Alan Leo) Marte en Sagitario produce energía expansiva, aventurera y filosófica. Hay entusiasmo y optimismo en la acción. Puede haber imprudencia."
+            },
+            "Marte_Capricornio": {
+                "texto": "(Alan Leo) Marte en Capricornio, su exaltación, produce energía ambiciosa, disciplinada y orientada a logros. Gran capacidad de trabajo y persistencia."
+            },
+            "Marte_Acuario": {
+                "texto": "(Alan Leo) Marte en Acuario produce energía original, independiente y orientada hacia causas humanitarias. La acción es innovadora pero puede ser errática."
+            },
+            "Marte_Piscis": {
+                "texto": "(Alan Leo) Marte en Piscis produce energía difusa, intuitiva y compasiva. La acción puede ser indirecta o inspirada espiritualmente. Puede haber falta de dirección."
+            },
+            "Jupiter_Aries": {
+                "texto": "(Alan Leo) Júpiter en Aries produce expansión a través de la iniciativa pionera y el liderazgo. Hay entusiasmo y confianza. Puede haber impulsos excesivos."
+            },
+            "Jupiter_Tauro": {
+                "texto": "(Alan Leo) Júpiter en Tauro produce expansión a través de recursos materiales y valores estables. Hay generosidad y apreciación por los placeres. Puede haber indulgencia."
+            },
+            "Jupiter_Geminis": {
+                "texto": "(Alan Leo) Júpiter en Géminis produce expansión a través del conocimiento, la comunicación y los viajes. Hay curiosidad intelectual amplia. Puede haber dispersión."
+            },
+            "Jupiter_Cancer": {
+                "texto": "(Alan Leo) Júpiter en Cáncer, su exaltación, produce expansión a través del hogar, la familia y la nutrición emocional. Gran generosidad y protección."
+            },
+            "Jupiter_Leo": {
+                "texto": "(Alan Leo) Júpiter en Leo produce expansión a través de la creatividad, el drama y el liderazgo generoso. Hay magnanimidad y optimismo. Puede haber extravagancia."
+            },
+            "Jupiter_Virgo": {
+                "texto": "(Alan Leo) Júpiter en Virgo produce expansión a través del servicio, el trabajo detallado y la salud. Hay crecimiento a través de la utilidad práctica."
+            },
+            "Jupiter_Libra": {
+                "texto": "(Alan Leo) Júpiter en Libra produce expansión a través de las relaciones, la justicia y las artes. Hay crecimiento a través de la cooperación y la armonía."
+            },
+            "Jupiter_Escorpio": {
+                "texto": "(Alan Leo) Júpiter en Escorpio produce expansión a través de la transformación, la investigación y los recursos compartidos. Hay profundidad y poder."
+            },
+            "Jupiter_Sagitario": {
+                "texto": "(Alan Leo) Júpiter en Sagitario, su propio signo, produce máxima expansión filosófica, religiosa y aventurera. Gran optimismo y búsqueda de significado."
+            },
+            "Jupiter_Capricornio": {
+                "texto": "(Alan Leo) Júpiter en Capricornio produce expansión a través de logros prácticos, estructura y autoridad. El crecimiento viene con disciplina."
+            },
+            "Jupiter_Acuario": {
+                "texto": "(Alan Leo) Júpiter en Acuario produce expansión a través de ideales humanitarios, innovación y trabajo grupal. Hay visión de futuro y progreso social."
+            },
+            "Jupiter_Piscis": {
+                "texto": "(Alan Leo) Júpiter en Piscis, uno de sus signos, produce expansión espiritual, compasiva y artística. Gran sensibilidad y capacidad de inspiración."
+            },
+            "Saturno_Aries": {
+                "texto": "(Alan Leo) Saturno en Aries produce restricción en la iniciativa y la acción independiente. Las lecciones vienen a través de la paciencia y la moderación del impulso."
+            },
+            "Saturno_Tauro": {
+                "texto": "(Alan Leo) Saturno en Tauro produce restricción en recursos materiales y valores. Las lecciones vienen a través de la economía y el trabajo constante."
+            },
+            "Saturno_Geminis": {
+                "texto": "(Alan Leo) Saturno en Géminis produce restricción en la comunicación y el pensamiento superficial. Las lecciones vienen a través de la concentración mental."
+            },
+            "Saturno_Cancer": {
+                "texto": "(Alan Leo) Saturno en Cáncer produce restricción en el ámbito emocional y familiar. Las lecciones vienen a través de la madurez emocional y el desapego."
+            },
+            "Saturno_Leo": {
+                "texto": "(Alan Leo) Saturno en Leo produce restricción en la expresión creativa y el reconocimiento. Las lecciones vienen a través de la humildad y el trabajo disciplinado."
+            },
+            "Saturno_Virgo": {
+                "texto": "(Alan Leo) Saturno en Virgo produce estructura en el trabajo, la salud y el servicio. Las lecciones vienen a través de la eficiencia y la atención al detalle."
+            },
+            "Saturno_Libra": {
+                "texto": "(Alan Leo) Saturno en Libra, su exaltación, produce estructura en las relaciones y la justicia. Las lecciones kármicas frecuentemente involucran asociaciones."
+            },
+            "Saturno_Escorpio": {
+                "texto": "(Alan Leo) Saturno en Escorpio produce restricción en el poder y la transformación. Las lecciones vienen a través de enfrentar los miedos profundos."
+            },
+            "Saturno_Sagitario": {
+                "texto": "(Alan Leo) Saturno en Sagitario produce restricción en la expansión y la filosofía. Las lecciones vienen a través de la profundización del conocimiento."
+            },
+            "Saturno_Capricornio": {
+                "texto": "(Alan Leo) Saturno en Capricornio, su propio signo, produce máxima estructura y ambición disciplinada. Las lecciones kármicas relacionadas con la autoridad."
+            },
+            "Saturno_Acuario": {
+                "texto": "(Alan Leo) Saturno en Acuario, uno de sus signos, produce estructura en ideales y trabajo grupal. Las lecciones vienen a través de la responsabilidad social."
+            },
+            "Saturno_Piscis": {
+                "texto": "(Alan Leo) Saturno en Piscis produce restricción en la imaginación y la espiritualidad difusa. Las lecciones kármicas relacionadas con la compasión y los límites."
+            }
+        }
+    }
+}

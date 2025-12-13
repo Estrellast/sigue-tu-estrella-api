@@ -259,8 +259,12 @@ def api_calculate():
         # NEW: TRANSITS CALCULATION (Fixing the "Lost Functionality")
         # ------------------------------------------------------------------
         transits_data = []
-        try:
-            from kerykeion.utilities.aspects import CompositeAspects
+        # Optimization: Skip Transits & SVG for HomeTicker (Just needs planets)
+        is_ticker = (name == 'HomeTicker')
+        
+        if not is_ticker:
+            try:
+                from kerykeion.utilities.aspects import CompositeAspects
             
             # 1. Create Transit Chart (Current Time)
             now_utc = datetime.utcnow()
@@ -288,8 +292,9 @@ def api_calculate():
 
         # 9. SVG Generation (Using same subject instance!)
         svg_content = ""
-        try:
-            with tempfile.TemporaryDirectory() as temp_dir:
+        if not is_ticker:
+            try:
+                with tempfile.TemporaryDirectory() as temp_dir:
                 svg_maker = MakeSvgInstance(subject, new_output_directory=temp_dir, chart_type="Natal")
                 
                 # Styles (White on Black or White High Contrast)
